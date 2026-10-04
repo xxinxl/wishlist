@@ -1,0 +1,12 @@
+{
+  "title": "ХОЧУ! — мой вишлист",
+  "description": "Личный вишлист: от маленьких приятностей до больших мечтаний.",
+  "language": "ru",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
