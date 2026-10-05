@@ -14,6 +14,7 @@ import cameraThree from "./assets/products/papershoot-stage-3.jpg"
 import cakeOne from "./assets/products/edward-cake-1.jpg"
 import cakeTwo from "./assets/products/edward-cake-2.jpg"
 import cakeThree from "./assets/products/edward-cake-3.jpg"
+import vpnYear from "./assets/products/vpn-year.jpg"
 import vaseOne from "./assets/products/vase-stage-1.jpg"
 import vaseThree from "./assets/products/vase-stage-3.jpg"
 import petReference from "./assets/pet-reference.jpg"
@@ -356,6 +357,19 @@ const small: Wish[] = [
       "Количество побольше",
     ],
     link: "https://www.avito.ru/sankt-peterburg/predlozheniya_uslug/gastroboksy_pirozhki_deserty_s_dostavkoy_3591877247",
+  },
+  {
+    id: 16,
+    title: "VPN на год",
+    description: "Чтобы интернет снова был просто интернетом",
+    details:
+      "Годовая подписка на VPN, чтобы интернет снова был просто интернетом. Сервис лучше уточнить у меня",
+    price: "зависит от сервиса",
+    tag: "подписка",
+    note: "на целый год",
+    tone: "lilac",
+    images: [vpnYear],
+    specs: ["Подписка на 12 месяцев", "Сервис лучше уточнить у меня"],
   },
 ]
 

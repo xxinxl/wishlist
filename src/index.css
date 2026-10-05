@@ -177,7 +177,9 @@ img { display: block; width: 100%; }
 .bento-grid .wish-card:nth-last-child(2):not(.wish-card--wide) .wish-card__media { height: 390px; }
 
 .catalog-section--small { background: color-mix(in srgb, var(--lilac) 16%, var(--milk)); border-radius: 46px 46px 0 0; }
-.small-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.small-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; }
+.small-grid .wish-card { grid-column: span 4; }
+.small-grid .wish-card:nth-child(n+4) { grid-column: span 6; }
 .small-grid .wish-card:nth-child(even) { transform: none; }
 .small-grid .wish-card:nth-child(even):hover { transform: translateY(-8px) rotate(-.5deg); }
 .small-grid .wish-card__media { height: 360px; }
@@ -238,6 +240,8 @@ footer { min-height: 90px; padding: 0 max(5vw, calc((100vw - 1180px) / 2)); disp
 
 @media (max-width: 1180px) and (min-width: 641px) {
   .small-grid { grid-template-columns: 1fr 1fr; }
+  .small-grid .wish-card:nth-child(n) { grid-column: auto; }
+  .small-grid .wish-card:nth-child(odd):last-child { grid-column: 1 / -1; }
 }
 
 @media (max-width: 900px) {
